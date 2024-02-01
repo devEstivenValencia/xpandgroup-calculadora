@@ -1,0 +1,12 @@
+main {
+  background-color: transparent;
+  background-image: url("https://static.nike.com/a/images/f_auto/dpr_1.0,cs_srgb/w_1801,c_limit/dd34359c-e4a1-4db7-bd99-ac46cd6ab44b/nike-running.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+@media (width <= 1024px) {
+  main {
+    background-size: auto;
+  }
+}
